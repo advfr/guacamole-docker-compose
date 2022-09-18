@@ -1,3 +1,20 @@
+# What are the changes in this fork ?
+Things about nginx reverse proxy and certificates are disabled, at home this is my NAS which takes in charge those kind of things.
+
+Commands:
+~~~
+git clone "https://github.com/advfr/guacamole-docker-compose.git"
+cd guacamole-docker-compose
+./prepare.sh
+docker compose up -d
+~~~bash
+
+Guacamole will be reachable at http://IP:8080/guacamole
+If for some reason like me you prefer to have it reachable at http://IP:8080 add the variable WEBAPP_CONTEXT = ROOT in the guacamole_compose container options.
+
+That's it !
+
+
 # Guacamole with docker-compose
 This is a small documentation how to run a fully working **Apache Guacamole (incubating)** instance with docker (docker-compose). The goal of this project is to make it easy to test Guacamole.
 
