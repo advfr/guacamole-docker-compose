@@ -2,12 +2,12 @@
 Things about nginx reverse proxy and certificates are disabled, at home this is my NAS which takes in charge those kind of things.
 
 Commands:
-~~~
+~~~bash
 git clone "https://github.com/advfr/guacamole-docker-compose.git"
 cd guacamole-docker-compose
 ./prepare.sh
 docker compose up -d
-~~~bash
+~~~
 
 Guacamole will be reachable at http://IP:8080/guacamole
 If for some reason like me you prefer to have it reachable at http://IP:8080 add the variable WEBAPP_CONTEXT = ROOT in the guacamole_compose container options.
