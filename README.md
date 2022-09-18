@@ -1,5 +1,5 @@
 # What are the changes in this fork ?
-Things about nginx reverse proxy and certificates are disabled, at home this is my NAS which takes in charge those kind of things.
+Things about nginx reverse proxy and certificates are disabled (commented), at home this is my NAS which takes in charge those kind of things.
 
 Commands:
 ~~~bash
